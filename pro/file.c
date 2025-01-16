@@ -9,9 +9,9 @@ int main()
     }
 
     char ca; 
-    while ((ca = fgetc(file1)) != EOF) 
+    while ((ca = fgetc(file1)) != EOF)// il programma legge il contenuto del file e lo assegna al contenitore ca 
     {
-        putchar(ca);
+        putchar(ca);// questa cosa qui mi lo stampa a video
     }
     printf("\n");
     fclose(file1);
